@@ -9,7 +9,7 @@
 	<property name="xml" value="src/XML" />
 	<property name="javadoc" value="false"/>
 	
-	<property name="version" value="3-6GA"/>
+	<property name="version" value="3-7"/>
 	
 	
 	<description>
@@ -65,6 +65,13 @@
 			<param name="prm-adapter-name" value="bmp" />
 			<param name="prm-adapter-dir" value="bmp_adapter_1_0" />
 		</antcall>
+		
+		<!-- prepare the files for the epub adapter -->
+		<antcall target="adapter_build">
+			<param name="prm-adapter-type" value="epub" />
+			<param name="prm-adapter-name" value="epub" />
+			<param name="prm-adapter-dir" value="epub_adapter_1_0" />
+		</antcall>		
 
 		<!-- prepare the files for the excel adapter -->
 		<antcall target="adapter_build">
