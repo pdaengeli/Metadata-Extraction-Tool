@@ -3,6 +3,7 @@ nz.govt.natlib.adapter
 nz.govt.natlib.adapter.any
 nz.govt.natlib.adapter.arc
 nz.govt.natlib.adapter.bmp
+nz.govt.natlib.adapter.epub
 nz.govt.natlib.adapter.excel
 nz.govt.natlib.adapter.exif
 nz.govt.natlib.adapter.flac

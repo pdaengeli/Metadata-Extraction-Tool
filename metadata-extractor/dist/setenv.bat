@@ -8,6 +8,7 @@ set META_CLASSPATH=%META_CLASSPATH%;%METAHOME%\lib\commons-httpclient-3.1.jar
 set META_CLASSPATH=%META_CLASSPATH%;%METAHOME%\lib\commons-io-2.4.jar
 set META_CLASSPATH=%META_CLASSPATH%;%METAHOME%\lib\commons-lang-2.6.jar
 set META_CLASSPATH=%META_CLASSPATH%;%METAHOME%\lib\commons-logging-1.2.jar
+set META_CLASSPATH=%META_CLASSPATH%;%METAHOME%\lib\epublib-tools-3.1-complete.jar
 set META_CLASSPATH=%META_CLASSPATH%;%METAHOME%\lib\fastutil-5.0.3-heritrix-subset-1.0.jar
 set META_CLASSPATH=%META_CLASSPATH%;%METAHOME%\lib\heritrix-1.14.4.jar
 set META_CLASSPATH=%META_CLASSPATH%;%METAHOME%\lib\isoparser-142-SNAPSHOT.jar
